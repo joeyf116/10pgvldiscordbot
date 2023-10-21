@@ -44,7 +44,7 @@ client.on("interactionCreate", async (interaction) => {
 			messages: [
 				{
 					role: "user",
-					content: "In 10 words max, write an insult about someones Jiu Jitsu",
+					content: "In 20 words max, write an insult about someones Jiu Jitsu and why they lack everything that makes a good Jiu Jitsu player.",
 				},
 			],
 			model: "gpt-3.5-turbo",

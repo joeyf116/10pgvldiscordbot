@@ -2,10 +2,11 @@ const express = require("express");
 const app = express();
 
 require("dotenv").config();
+
 const OpenAIApi = require("openai");
 const openai = new OpenAIApi({ apiKey: process.env.OPENAI_API_KEY });
-//In bot.js
 const { Client, GatewayIntentBits, REST, Routes } = require("discord.js");
+
 const client = new Client({
 	intents: [
 		GatewayIntentBits.Guilds,
